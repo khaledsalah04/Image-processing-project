@@ -1,6 +1,7 @@
 package com.myfinalnewclientserverapp.com;
 
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.util.Base64;
 
@@ -11,11 +12,11 @@ import java.io.InputStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class sendMessage extends AsyncTask<Bitmap , Void , String>{
+public class sendMessage extends AsyncTask<Bitmap , Void , Bitmap>{
 
 
     @Override
-    protected String doInBackground(Bitmap... bitmaps) {
+    protected Bitmap doInBackground(Bitmap... bitmaps) {
 
         try {
 
@@ -64,15 +65,15 @@ public class sendMessage extends AsyncTask<Bitmap , Void , String>{
                 bos.close();
                 socket1.close();
 
-                String s = new String(b);
+/*                String s = new String(b);
 
                 return  s;
+*/
 
-
-             /*   byte [] bb = Base64.decode(b,Base64.DEFAULT);
+                byte [] bb = Base64.decode(b,Base64.DEFAULT);
                 Bitmap translated_img = BitmapFactory.decodeByteArray(bb, 0, bb.length);
                 int x =0;
-                return translated_img;*/
+                return translated_img;
 
 
             } catch (UnknownHostException e) {

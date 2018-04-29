@@ -47,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
 
-                    tranlation = s.execute(imageBitmap).get();
+//                    tranlation = s.execute(imageBitmap).get();
 
-                    //imageBitmap =  s.execute(imageBitmap).get();
+                    imageBitmap =  s.execute(imageBitmap).get();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
 
-                //mImageView.setImageBitmap(imageBitmap);
-                textView.setText(tranlation);
+                mImageView.setImageBitmap(imageBitmap);
+                //textView.setText(tranlation);
             }
         });
     }
