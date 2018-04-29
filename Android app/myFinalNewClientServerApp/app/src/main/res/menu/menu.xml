@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"><![CDATA[
+
+              android:showAsAction="ifRoom"/>
+       
+    ]]>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/english"
+            android:title="English --> Arabic" />
+        <item
+            android:id="@+id/arabic"
+            android:title="Arabic --> English" />
+        <item
+            android:id="@+id/french"
+            android:title="French --> English" />
+        <item
+            android:id="@+id/german"
+            android:title="Deutsch -->English"></item>
+    </group>
+             
+              android:title="@string/help" />
+</menu>
