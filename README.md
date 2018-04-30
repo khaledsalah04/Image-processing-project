@@ -17,10 +17,13 @@ u can easily download mobile app at
 you can  clone the server to run at your host machine .
 
 ### packages needed to run server 
-python3 
-opencv 
-pytesseract package 
-google translate python api  
+- python3 
+
+- opencv
+
+- pytesseract package
+
+- google translate python api  
 
 ## features  
 
