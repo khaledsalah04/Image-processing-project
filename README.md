@@ -45,6 +45,8 @@ you can  clone the server to run at your host machine .
 
 
 
+
+
 ## 2)Desktop application
 
  The desktop application is built using PyQt5 library running on python,
@@ -53,7 +55,7 @@ you can  clone the server to run at your host machine .
  
  
  ### packages needed to run desktop app
- -same packages as those needed to run the server,furthermore pyqt5 is needed
+ -same packages as those needed to run the server, furthermore pyqt5 is needed
  
  
  ## features  
