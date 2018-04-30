@@ -31,7 +31,7 @@ you can  clone the server to run at your host machine .
 
 - google translate python api  
 
-## features  
+### features  
 
 - *__the translated text is placed in place of original text in image__* 
 
@@ -39,7 +39,7 @@ you can  clone the server to run at your host machine .
 
 - *low quality image  can  be scanned* 
 
-## demo link 
+### demo link 
 - part1 https://www.youtube.com/watch?v=fXXxsxTh5Iw&feature=youtu.be 
 - part2  https://www.youtube.com/watch?v=p1Hkj3F9AV4&feature=youtu.be
 
@@ -58,7 +58,7 @@ you can  clone the server to run at your host machine .
  -same packages as those needed to run the server, furthermore pyqt5 is needed
  
  
- ## features  
+ ### features  
 
 - the translated text is placed below the original image.
 
@@ -67,7 +67,7 @@ you can  clone the server to run at your host machine .
 - translate text in the photo to many languages.
  
  
-## demo link 
+### demo link 
 - https://www.youtube.com/watch?v=NRKWJZ4rHj4
 
 
