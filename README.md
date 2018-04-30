@@ -9,8 +9,14 @@ behalf for those who want to translate any photo or pdf document .
 ## Description
 
  Targemly application as a translator for some pdf file or photo ,
-scan them by taking a photo from the mobile device to run the translator service .
-the application divided into two main compents server and mobile app 
+ we have made 2 versions of the application to run on different platforms,
+ first version is an android application and the second is desktop application running on a laptop.
+ 
+  
+ ## 1)Android application:
+ 
+scan photos and pdf by taking a photo from the mobile device to run the translator service .
+the application divided into two main components server and mobile app 
 u can easily download mobile app at
 
 #link of mobile app 
@@ -27,15 +33,41 @@ you can  clone the server to run at your host machine .
 
 ## features  
 
-- *__the translated text areplaced in place of original text in image__* 
+- *__the translated text is placed in place of original text in image__* 
 
 - *this app cable of scanning  straight and rotated images* 
 
-- *low quality image  can  be scanned  it* 
+- *low quality image  can  be scanned* 
 
 ## demo link 
 - part1 https://www.youtube.com/watch?v=fXXxsxTh5Iw&feature=youtu.be 
 - part2  https://www.youtube.com/watch?v=p1Hkj3F9AV4&feature=youtu.be
+
+
+
+## 2)Desktop application
+
+ The desktop application is built using PyQt5 library running on python,
+ in which you can take photos you want to scan to translate from the built-in webcam of the laptop.
+ the design of the layout of the app is made using qt designer and the design is imported into the code.
+ 
+ 
+ ### packages needed to run desktop app
+ -same packages as those needed to run the server,furthermore pyqt5 is needed
+ 
+ 
+ ## features  
+
+- *__the translated text is placed below the original image* 
+
+- Robust to noise due to low light or blurred images.(good accuracy)
+
+- translate text in the photo to many languages.
+ 
+ 
+## demo link 
+- https://www.youtube.com/watch?v=NRKWJZ4rHj4
+
 
 
  
