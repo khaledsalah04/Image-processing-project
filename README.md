@@ -58,7 +58,7 @@ you can  clone the server to run at your host machine .
  
  ## features  
 
-- *__the translated text is placed below the original image* 
+- the translated text is placed below the original image.
 
 - Robust to noise due to low light or blurred images.(good accuracy)
 
