@@ -40,8 +40,7 @@ you can  clone the server to run at your host machine .
 - *low quality image  can  be scanned* 
 
 ### demo link 
-- part1 https://www.youtube.com/watch?v=fXXxsxTh5Iw&feature=youtu.be 
-- part2  https://www.youtube.com/watch?v=p1Hkj3F9AV4&feature=youtu.be
+- https://www.youtube.com/playlist?list=PLijPGmlMpDKyHGWDvcUhRthNViN3AqzjI
 
 
 
