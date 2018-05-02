@@ -138,7 +138,7 @@ class mainapp(QDialog):
     def stop_cam(self):
 
         self.timer.stop()
-        #cv2.imwrite('tala3etomash.jpg',self.image)
+        
 
 
     def displayImage(self,img,window=1):
